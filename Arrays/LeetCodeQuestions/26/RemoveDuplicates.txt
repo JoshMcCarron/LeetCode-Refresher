@@ -1,0 +1,7 @@
+First, we create a variable called leftPointer which will be used to keep track of our unique elements.
+    -leftPointer is initialized to 1 as the array is guaranteed to have atleast one element.
+We then create rightPointer, set it to one, and loop through each element in the arrray
+    -we compare the array elements at the index of rightPointer and rightPointer - 1.
+    -If they are not equal then that means we have a unique number.
+When a unique number is found we set the element at index leftPointer to the element at index rightPointer, and increase leftPointer by 1
+Finally, we return leftPointer which contains the number of unique elements
