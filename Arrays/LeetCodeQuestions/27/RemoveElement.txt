@@ -1,0 +1,4 @@
+First, we create a variable k which will be used to keep track of the number of entries that are not equal to 'val'.
+Then we just loop through every element in the array.
+    -If the element does not equal 'val' then we just set the entry of num[k] to the current element.
+    -Increase k.
