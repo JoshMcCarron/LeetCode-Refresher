@@ -1,0 +1,6 @@
+First, we start off by creating a new array of size n*2.
+Then we loop through the entire array
+    -the index of x will be every i value * 2, while the index of y will be every i value * 2 + 1
+        -this fills the x values with even indices, and the y values with odd indices
+    -the value of x will be i, while the value of y will be i + the offset new
+Finally, return the array
