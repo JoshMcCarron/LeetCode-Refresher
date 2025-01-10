@@ -1,0 +1,2 @@
+First, start off by creating an array of length nums*2
+Then just loop through the nums array, making arr[i] = nums[i], and arr[i+n] = nums[i];
