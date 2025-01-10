@@ -1,0 +1,10 @@
+First, we see that the constraint tells us that the length of the string is between 1 and 10^4. 
+Since, for an input to be valid it needs an opening and closing bracket, the string must be even so we return false if s.length() is odd.
+Next we create a stack, and loop through each letter of the string checking for 3 conditions:
+    1. if an open bracket, we simply push it to the stack as it will be later compared with closing brackets
+    2. if the stack is empty, we simply return false as that means a non-opening bracket character has been encountered without an opening bracket to compare it too
+    3. we know this character will be a closing bracket so we call a method 'isPair' which takes two parameters
+        a. The first parameter will be an open bracket and is the last element popped off the stack. The second parameter should be a closed bracket and we are checking if it cooresponds to the open bracket
+        b. If 'isPair' finds the two characters to not match, it returns false  
+The above steps are repeated until there are no more characters in the string 's'.
+If the stack is empty, the string is valid, otherwise it is not.
