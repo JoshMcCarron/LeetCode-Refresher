@@ -1,0 +1,7 @@
+First, create a new HashMap
+loop through each element int nums
+    for each element in the array calculate the difference which is the target - current number
+    check if that difference is found in the map. 
+        If it is return a new int arrary with the first element being the index of the number found in the map, and the second being the index of the current number
+        otherwise, sotre the current number, and its index in the map
+return null outside the loop
