@@ -1,0 +1,5 @@
+Create a HashSet
+loop through each integer in array
+    if number isnt in hashset already, add it  
+    if number is in hashset already, then return true
+outside the loop return false because that means array is all unique integers
