@@ -1,0 +1,9 @@
+First, create a new node called prev (this node will eventually turn into the head)
+Next create a new node 'curr' which will be used to traverse each element in the linked list
+Then, while curr != null, loop through each element in the list
+    You need to maintain a connection with the next node so create a new node called tmp and set it to curr.next   
+    Now you can start the reversal process:
+        set curr.next to prev
+        set prev to curr
+        and set curr to tmp
+return prev (returns the reversed linked list)
