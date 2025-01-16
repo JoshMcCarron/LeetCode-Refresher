@@ -1,0 +1,9 @@
+First start off by creating a LinkedList which will hold the sorted merged LinkedList.
+Then create a node curr and set it to the head of the new LinkedList.
+    While an element is still present in both list1 and list2, traverse through the lists
+        compare the values of the current element in either list and set curr.next to which ever is lower
+        whichever list is chosen needs to traverse to the next element
+        set curr to curr.next
+    Outside the loop edge cases need to be handled
+        An if statement for if list1 is non-empty, and another for if list2 is non-empty
+            in both just set curr.next to the cooresponding list
